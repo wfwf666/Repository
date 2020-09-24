@@ -6,6 +6,7 @@ background-color: rgb(113, 98, 245);
   display: flex;
   flex-direction: row;
   align-items: center;
+  
 }
 image{
   width: 70px;
