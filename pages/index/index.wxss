@@ -1,0 +1,26 @@
+/**index.wxss**/
+view{
+background-color: rgb(113, 98, 245);
+}
+.v1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+image{
+  width: 70px;
+  height: 55px;
+  margin: 5px;
+  border-radius: 10%;
+}
+.name{
+ 
+  font-size:10px ;
+  margin-left: 100px;
+  
+}
+.prize{
+  display: flex;
+  font-size:10px ;
+  margin-left: 100px;
+}

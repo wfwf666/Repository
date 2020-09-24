@@ -1,0 +1,11 @@
+<!-- array 是一个数组 -->
+<view wx:for="{{array}}">
+  <view  class="v1">
+  <image src="{{item.img}}"></image>
+    <view>
+    <text class="name">名称：{{item.name}}</text> 
+    <text class="prize">价格：{{item.prize}}</text>
+    </view>
+  </view>
+  <view>----------------------------------------------</view>
+</view>
