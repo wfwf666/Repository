@@ -1,0 +1,50 @@
+/**index.wxss**/
+
+page{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction:  column;
+  font-size: 50rpx;
+}
+.show,.operate{
+  flex: 1;
+  display: flex;
+  flex-direction:column;
+}
+.operate>view{
+  flex: 1;
+  display: flex; 
+}
+.operate>view>view{
+
+  flex: 1;
+  border-top-style: ridge;
+  border-left-style: ridge;
+  flex-direction:column;
+  text-align: center;
+
+}
+.operate>view:last-child>view:first-child{
+  flex: 2;
+}
+.operate>view>view:last-child{
+  color: rgb(231, 187, 66);
+}
+.operate>view>view:first-child{
+  border-left-style: none;
+}
+.operate>view:first-child>view:first-child{
+  color: rgb(219, 35, 35);
+}
+.show>.show-figure{
+  position: absolute;
+  bottom: 55vh;
+  right: 5vw;
+  font-size: 80rpx;
+}
+.show>.show-character{
+  position: absolute;
+  bottom: 50vh;
+  right: 5vw;
+}

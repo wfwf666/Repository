@@ -1,0 +1,37 @@
+<!--index.wxml-->
+
+<view class="show">
+  <view class="show-figure">6</view>
+  <view class="show-character">/</view>
+</view>
+<view class="operate">
+  <view>
+    <view>C</view>
+    <view>DEL</view>
+    <view>%</view>
+    <view>÷</view>
+  </view>
+  <view>
+    <view>7</view>
+    <view>8</view>
+    <view>9</view>
+    <view>x</view>
+  </view>
+  <view>
+    <view>4</view>
+    <view>5</view>
+    <view>6</view>
+    <view>-</view>
+  </view>
+  <view>
+    <view>1</view>
+    <view>2</view>
+    <view>3</view>
+    <view>+</view>
+  </view>
+  <view>
+    <view>0</view>
+    <view>.</view>
+    <view>=</view>
+  </view>
+</view>
